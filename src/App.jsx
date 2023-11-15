@@ -21,7 +21,7 @@ function App() {
       <SimpleList />
       <ListWithMap />
       <ListWithForLoop />
-
+      
       <h2>Komponentas su parametrais</h2>
       <User name="Jonas" age={99} />
       <User name="Maryte" age={88} />
@@ -31,6 +31,7 @@ function App() {
       <Student name="Maryte" age={88} />
       <Student name="Petras" age={77} />
       <Student name="Ona" age={66} />
+      
 
       <h2>Tiesiog komponento panaudojimas</h2>
       <Item />
