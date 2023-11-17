@@ -1,4 +1,5 @@
 import './App.css';
+import { Cart } from './components/cart/Cart';
 import { Student } from './components/comp-param/Student';
 import { User } from './components/comp-param/User';
 import { Item } from './components/component/Item';
@@ -12,6 +13,9 @@ import { Todo } from './components/todo/Todo';
 function App() {
   return (
     <div className="App">
+      <h2>Props from Child to Parent</h2>
+      <Cart />
+
       <h2>useState() hooks'as</h2>
       <Todo />
       <Counter />
@@ -21,7 +25,7 @@ function App() {
       <SimpleList />
       <ListWithMap />
       <ListWithForLoop />
-      
+
       <h2>Komponentas su parametrais</h2>
       <User name="Jonas" age={99} />
       <User name="Maryte" age={88} />
@@ -31,7 +35,6 @@ function App() {
       <Student name="Maryte" age={88} />
       <Student name="Petras" age={77} />
       <Student name="Ona" age={66} />
-      
 
       <h2>Tiesiog komponento panaudojimas</h2>
       <Item />
